@@ -19,20 +19,7 @@ For the script to work properly with limits and hiring add export and callback s
 <p></p>
 ```
 
-
-if data2.current.value == 'yes' then
-	ESX.TriggerServerCallback('szymczakovv_stokcs:GetCounter', function(aktualnie)
-		local limit = exports['fivem-organisations']:GetLimitEmployee()
-		if aktualnie >= limit then
-			ESX.ShowNotification('Przekroczono limit zatrudniania osób. ['..aktualnie..'/'..limit..']')
-		else
-			TriggerEvent('esx:showNotification', _U('you_have_hired', data.current.name))
-
-			ESX.TriggerServerCallback('esx_society:setHiddenJob', function()
-				OpenRecruitMenu2(society)
-			end, data.current.identifier, society, 0, 'hire')
-		end
-	end)
+dsadasd
 
 
 ```
