@@ -13,9 +13,9 @@ To change limit of people to hire go to fivem-organisations/config.lua - Config.
 Aby zmienić limit osób do zatrudnienia przejdź do fivem-organisations/config.lua - Config.Organisations['Org_Name'] - Settings = { limit = 20 }
 
 <p> </p>
-Aby poprawnie działał skrypt z limitami zatrudniania musisz dodać export i callback niżej example jak to powinno wyglądać:
+Aby poprawnie działał skrypt z limitami zatrudniania musisz dodać export i callback w esx_society niżej example jak to powinno wyglądać:
 <p></p>
-For the script to work properly with limits and hiring add export and callback sample example how it should look like:
+For the script to work properly with limits and hiring add export and callback in esx_society sample example how it should look like:
 <p></p>
 
 
