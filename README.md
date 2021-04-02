@@ -49,9 +49,11 @@ esx_headbag
 es_extended
 mysql-async
 ```
+<p></p>
+<p></p>
 
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Resmon" src="https://i.imgur.com/9d3rCyQ.png">  
-
+<img width="390" height="26" align="left" style="float: left; margin: 0 10px 0 0;" alt="Resmon" src="https://i.imgur.com/9d3rCyQ.png">  
+<p></p>
 <p></p>
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
 
