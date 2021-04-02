@@ -2,21 +2,20 @@
 
 # ESX Organisations
 [![Paypal Doante](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/oplatyprimerp)
-[![Discord](https://discordapp.com/api/guilds/690686401469087756/embed.png)](https://discord.gg/wrSqK6k) <p></p>
-<p></p>
+[![Discord](https://discordapp.com/api/guilds/690686401469087756/embed.png)](https://discord.gg/wrSqK6k)
+<br> </br>
 Script for organizations with the ability to give a limit of people to hire, Contracts for weapons, Bossmenu, Closet, Clothing and much more.
-<p></p>
+<br> </br>
 Skrypt na organizacje z możliwością nadania limitu osób do zatrudniania, Kontrakty na broń, Bossmenu, Szafka, Ubrania i wiele więcej.
-<p></p>
+<br> </br>
 To change limit of people to hire go to fivem-organisations/config.lua - Config.Organisations['Org_Name'] - Settings = { limit = 20 }
-<p></p>
+<br> </br>
 Aby zmienić limit osób do zatrudnienia przejdź do fivem-organisations/config.lua - Config.Organisations['Org_Name'] - Settings = { limit = 20 }
-
-<p> </p>
+<br> </br>
 Aby poprawnie działał skrypt z limitami zatrudniania musisz dodać export i callback w esx_society niżej example jak to powinno wyglądać:
-<p></p>
+<br> </br>
 For the script to work properly with limits and hiring add export and callback in esx_society sample example how it should look like:
-<p></p>
+<br> </br>
 
 
 
@@ -49,12 +48,9 @@ esx_headbag
 es_extended
 mysql-async
 ```
-<p></p>
-<p></p>
+<br> </br>
 
 <img width="390" height="26" align="left" style="float: left; margin: 0 10px 0 0;" alt="Resmon" src="https://i.imgur.com/9d3rCyQ.png">  
-<p></p>
-<p></p>
 <br> </br>
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
 
