@@ -49,7 +49,8 @@ es_extended
 mysql-async
 ```
 <br> </br>
-
+If player is not in marker, Resmon Result:
+Jeśli gracz nie jest w markerze, Wynik z Resmon:
 <img width="390" height="26" align="left" style="float: left; margin: 0 10px 0 0;" alt="Resmon" src="https://i.imgur.com/9d3rCyQ.png">  
 <br> </br>
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
