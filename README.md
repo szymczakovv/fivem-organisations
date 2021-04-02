@@ -1,6 +1,6 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Szymczakovv" src="https://i.imgur.com/42AnCgD.jpg">  
 
-# Organisations
+# ESX Organisations
 [![Paypal Doante](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/oplatyprimerp)
 [![Discord](https://discordapp.com/api/guilds/690686401469087756/embed.png)](https://discord.gg/wrSqK6k) <p></p>
 <p></p>
@@ -21,18 +21,17 @@ For the script to work properly with limits and hiring add export and callback s
 
 
 ```lua
-        if data2.current.value == 'yes' then
-			ESX.TriggerServerCallback('szymczakovv_stokcs:GetCounter', function(aktualnie)
-				local limit = exports['fivem-organisations']:GetLimitEmployee()
-				if aktualnie >= limit then
-					ESX.ShowNotification('Przekroczono limit zatrudniania osób. ['..aktualnie..'/'..limit..']')
-				else
-					TriggerEvent('esx:showNotification', _U('you_have_hired', data.current.name))
-
-					ESX.TriggerServerCallback('esx_society:setHiddenJob', function()
-						OpenRecruitMenu2(society)
-					end, data.current.identifier, society, 0, 'hire')
-				end
-			end)
-        end
+if data2.current.value == 'yes' then
+	ESX.TriggerServerCallback('szymczakovv_stokcs:GetCounter', function(aktualnie)
+		local limit = exports['fivem-organisations']:GetLimitEmployee()
+		if aktualnie >= limit then
+			ESX.ShowNotification('Przekroczono limit zatrudniania osób. ['..aktualnie..'/'..limit..']')
+		else
+			TriggerEvent('esx:showNotification', _U('you_have_hired', data.current.name))
+			ESX.TriggerServerCallback('esx_society:setHiddenJob', function()
+				OpenRecruitMenu2(society)
+			end, data.current.identifier, society, 0, 'hire')
+		end
+	end)
+end
 ```
