@@ -20,4 +20,67 @@ For the script to work properly with limits and hiring add export and callback s
 
 
 
-` test `
+` function OpenRecruitMenu2(society)
+
+  ESX.TriggerServerCallback('esx_society:getOnlinePlayers', function(players)
+
+    local elements = {}
+
+    for i=1, #players, 1 do
+      if players[i].job.name ~= society then
+        table.insert(elements, {label = players[i].name, value = players[i].source, name = players[i].name, identifier = players[i].identifier})
+      end
+    end
+
+    ESX.UI.Menu.Open(
+      'default', GetCurrentResourceName(), 'recruit_' .. society,
+      {
+        title    = _U('recruiting'),
+        align    = 'center',
+        elements = elements
+      },
+      function(data, menu)
+
+        ESX.UI.Menu.Open(
+          'default', GetCurrentResourceName(), 'recruit_confirm_' .. society,
+          {
+            title    = _U('do_you_want_to_recruit', data.current.name),
+            elements = {
+              {label = _U('yes'), value = 'yes'},
+              {label = _U('no'),  value = 'no'},
+            }
+          },
+          function(data2, menu2)
+
+            menu2.close()
+
+            if data2.current.value == 'yes' then
+				ESX.TriggerServerCallback('szymczakovv_stokcs:GetCounter', function(aktualnie)
+					local limit = exports['fivem-organisations']:GetLimitEmployee()
+					if aktualnie >= limit then
+						ESX.ShowNotification('Przekroczono limit zatrudniania osób. ['..aktualnie..'/'..limit..']')
+					else
+						TriggerEvent('esx:showNotification', _U('you_have_hired', data.current.name))
+
+						ESX.TriggerServerCallback('esx_society:setHiddenJob', function()
+							OpenRecruitMenu2(society)
+						end, data.current.identifier, society, 0, 'hire')
+					end
+				end)
+            end
+
+          end,
+          function(data2, menu2)
+            menu2.close()
+          end
+        )
+
+      end,
+      function(data, menu)
+        menu.close()
+      end
+    )
+
+  end)
+
+end `
