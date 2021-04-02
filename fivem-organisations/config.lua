@@ -4,6 +4,7 @@ Config.DebugDeveloper = false --[[
 	Jeśli ta opcja jest ustawiona na true pozwala ona nam debugować błędy, które zostaną wysłane na
 	Discord Webhook jak i zostanie wyprintowany początek i koniec błędu tak abyście wiedzieli gdzie jest błąd
 	+ Dzięki debug mode ułatwicie pracę na przyszłość developerom, którzy będą w łatwy sposób mogli wykryć błąd
+	!!! Jeśli ustawiłeś na true zmień webhook w server.lua !!!
 ]]
 
 Config.Blips = {
