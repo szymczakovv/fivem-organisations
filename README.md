@@ -57,7 +57,7 @@ Jeśli gracz nie jest w markerze, Wynik z Resmon:
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
 
 <p></p>
-https://szymczakovv.pl/
+https://szymczakovv.me/
 <p></p>
 https://twitch.tv/szymczakovv
 <p></p>
