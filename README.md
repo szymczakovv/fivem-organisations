@@ -17,7 +17,7 @@ Aby poprawnie działał skrypt z limitami zatrudniania musisz dodać export i ca
 <p></p>
 For the script to work properly with limits and hiring add export and callback sample example how it should look like:
 <p></p>
-```
+
 
 dsadasd
 
