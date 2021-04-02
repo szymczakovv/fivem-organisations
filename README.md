@@ -43,3 +43,16 @@ Saving a limit in the database to do organisation leveling
 Zapisywanie limitu graczy w jednej organizacji w bazie danych aby ostatecznie zrobić levelowanie organizacji
 
 ```
+Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
+
+<p></p>
+https://szymczakovv.pl/
+<p></p>
+https://twitch.tv/szymczakovv
+<p></p>
+https://instagram.com/szymczakovv/
+<p></p>
+https://steamcommunity.com/id/szymczakovv
+
+<p></p>
+https://discord.gg/wrSqK6k
