@@ -33,6 +33,6 @@ if data2.current.value == 'yes' then
 			end, data.current.identifier, society, 0, 'hire')
 		end
 	end)
-end
+
 
 ```
