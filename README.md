@@ -20,7 +20,8 @@ For the script to work properly with limits and hiring add export and callback s
 
 
 
-`        if data2.current.value == 'yes' then
+```lua
+        if data2.current.value == 'yes' then
 			ESX.TriggerServerCallback('szymczakovv_stokcs:GetCounter', function(aktualnie)
 				local limit = exports['fivem-organisations']:GetLimitEmployee()
 				if aktualnie >= limit then
@@ -33,4 +34,5 @@ For the script to work properly with limits and hiring add export and callback s
 					end, data.current.identifier, society, 0, 'hire')
 				end
 			end)
-        end`
+        end
+```
