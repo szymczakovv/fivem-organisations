@@ -41,8 +41,16 @@ end
 TO-DO (in next update):
 Saving a limit in the database to do organisation leveling
 Zapisywanie limitu graczy w jednej organizacji w bazie danych aby ostatecznie zrobić levelowanie organizacji
-
 ```
+**Requirements:**
+```
+esx_society
+esx_headbag
+es_extended
+mysql-async
+```
+
+<p></p>
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
 
 <p></p>
