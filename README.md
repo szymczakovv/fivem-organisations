@@ -7,10 +7,10 @@
 <p></p>
 Script for organizations with the ability to give a limit of people to hire, Contracts for weapons, Bossmenu, Closet, Clothing and much more.
 Skrypt na organizacje z możliwością nadania limitu osób do zatrudniania, Kontrakty na broń, Bossmenu, Szafka, Ubrania i wiele więcej.
-```
+<p></p>
 To change limit of people to hire go to fivem-organisations/config.lua - Config.Organisations['Org_Name'] - Settings = { limit = 20 }
 Aby zmienić limit osób do zatrudnienia przejdź do fivem-organisations/config.lua - Config.Organisations['Org_Name'] - Settings = { limit = 20 }
-```
+
 <p> </p>
 Aby poprawnie działał skrypt z limitami zatrudniania musisz dodać export i callback niżej example jak to powinno wyglądać:
 For the script to work properly with limits and hiring add export and callback sample example how it should look like:
