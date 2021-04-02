@@ -55,6 +55,7 @@ mysql-async
 <img width="390" height="26" align="left" style="float: left; margin: 0 10px 0 0;" alt="Resmon" src="https://i.imgur.com/9d3rCyQ.png">  
 <p></p>
 <p></p>
+<br> </br>
 Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
 
 <p></p>
