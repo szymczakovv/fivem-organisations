@@ -11,10 +11,9 @@ client_scripts {
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
-    '@es_extended/locale.lua',
+	'@es_extended/locale.lua',
 	'config.lua',
 	'server.lua',
 }
-exports {
-	'GetLimitEmployee'
-}
+
+export 'GetLimitEmployee'
